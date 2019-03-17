@@ -37,6 +37,7 @@ public class BaseClass {
 		logger= reports.startTest(method.getName());
 		//System.out.println(method.getName());
 		System.out.println(BrowserName);
+		System.out.println("Hi");
 		//
 		InvokeBrowser(BrowserName);
 		StartUpInitialise.setDriver(driver);
