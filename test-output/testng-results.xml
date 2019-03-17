@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Framework Practice Test Suite" duration-ms="51502" started-at="2019-03-16T21:35:13Z" finished-at="2019-03-16T21:36:04Z">
+    <groups>
+    </groups>
+    <test name="Flight Booking Tests" duration-ms="51502" started-at="2019-03-16T21:35:13Z" finished-at="2019-03-16T21:36:04Z">
+      <class name="com.demo.tests.FlightBooking">
+        <test-method status="PASS" signature="InitialiseSuitRepo()[pri:0, instance:com.demo.tests.FlightBooking@7d9d1a19]" name="InitialiseSuitRepo" is-config="true" duration-ms="522" started-at="2019-03-16T21:35:12Z" finished-at="2019-03-16T21:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseSuitRepo -->
+        <test-method status="PASS" signature="Initialise(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.tests.FlightBooking@7d9d1a19]" name="Initialise" is-config="true" duration-ms="37425" started-at="2019-03-16T21:35:13Z" finished-at="2019-03-16T21:35:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.demo.tests.FlightBooking.SignUp() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="SignUp()[pri:1, instance:com.demo.tests.FlightBooking@7d9d1a19]" name="SignUp" duration-ms="11995" started-at="2019-03-16T21:35:50Z" finished-at="2019-03-16T21:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="AfterMethodProcess()[pri:0, instance:com.demo.tests.FlightBooking@7d9d1a19]" name="AfterMethodProcess" is-config="true" duration-ms="2003" started-at="2019-03-16T21:36:02Z" finished-at="2019-03-16T21:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodProcess -->
+        <test-method status="PASS" signature="CleanupSuuits()[pri:0, instance:com.demo.tests.FlightBooking@7d9d1a19]" name="CleanupSuuits" is-config="true" duration-ms="1038" started-at="2019-03-16T21:36:04Z" finished-at="2019-03-16T21:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupSuuits -->
+      </class> <!-- com.demo.tests.FlightBooking -->
+    </test> <!-- Flight Booking Tests -->
+  </suite> <!-- Framework Practice Test Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework Practice Test Suite]">
+  <test thread-count="5" name="Flight Booking Tests(failed)">
+    <parameter name="EnvName" value="QA"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.demo.tests.FlightBooking">
+        <methods>
+          <include name="Initialise"/>
+          <include name="AfterMethodProcess"/>
+          <include name="InitialiseSuitRepo"/>
+          <include name="SignUp"/>
+          <include name="CleanupSuuits"/>
+        </methods>
+      </class> <!-- com.demo.tests.FlightBooking -->
+    </classes>
+  </test> <!-- Flight Booking Tests(failed) -->
+</suite> <!-- Failed suite [Framework Practice Test Suite] -->
